@@ -2,14 +2,14 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { RiDeleteBin6Line } from 'react-icons/ri'
-// import Header from '../components/header'
+import Header from '../components/header'
 import Field from '../components/Feild'
 
 function ViewCart() {
     return (
         <div className="max-w-screen-2xl container mx-auto pb-8 px-4">
             <div className='bg-[#faf4f4]'>
-                {/* <Header /> */}
+                <Header />
             </div>
             {/* Banner Section */}
             <div className="relative text-black">
