@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import ShopLine from '../components/shop'
 import Field from '../components/Feild'
-// import Header from '../components/header'
+import Header from '../components/header'
 import Page from '../components/Ourpage'
 
 
@@ -34,7 +34,7 @@ function Shop() {
 
         <div className="max-w-screen-2xl container mx-auto pb-8 px-4">
             <div className='bg-[#faf4f4]'>
-                {/* <Header /> */}
+                <Header />
             </div>
             {/* Banner Section */}
             <div className="relative text-black">
