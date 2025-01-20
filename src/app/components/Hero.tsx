@@ -3,12 +3,12 @@ import React from 'react';
 import Image from 'next/image';
 import { IoTimeOutline } from 'react-icons/io5';
 import { CiCalendar } from 'react-icons/ci';
-// import Header from './header';
+import Header from './header';
 
 function Hero() {
     return (
         <div className="bg-[#fbebb5]  mx-auto  w-full">
-            {/* <Header /> */}
+            <Header />
             <div className="flex flex-col  md:mx-36 justify-around md:flex-row max-w-screen-2xl  p-20">
                 {/* Text Content */}
                 <div className=" my-auto text-center md:text-left">
