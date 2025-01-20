@@ -1,14 +1,14 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-// import Header from '../components/header';
+import Header from '../components/header';
 import Field from '../components/Feild';
 
 function MyAccount() {
     return (
         <div className="max-w-screen-2xl container mx-auto pb-8 px-4">
             <div className="bg-gray-100">
-                {/* <Header /> */}
+                <Header />
             </div>
             {/* Banner Section */}
             <div className="relative text-black">
