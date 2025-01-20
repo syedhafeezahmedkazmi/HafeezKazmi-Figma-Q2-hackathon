@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { BsFacebook } from 'react-icons/bs';
 import { FaLinkedin, FaTwitter } from 'react-icons/fa';
-// import Header from '@/app/components/header';
+import Header from '@/app/components/header';
 
 function AsgaardSofa() {
     const images = ["/shop.jpeg", "/shop.jpeg", "/shop.jpeg"]; // Replace with correct image paths
@@ -12,7 +12,7 @@ function AsgaardSofa() {
 
     return (
         <div className="max-w-screen-2xl container mx-auto pb-8 px-4">
-            {/* <Header /> */}
+            <Header />
             <nav className="text-gray-700 text-xl flex items-center space-x-2">
                 <Link href="/" className="font-bold hover:underline">
                     Home
